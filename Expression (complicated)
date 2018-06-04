@@ -1,0 +1,16 @@
+PGE	START	0
+CC	EQU	3
+	WORD	3
+AA	LDA	#3
+BB	J	AA
+DD	EQU	*
+EE	STA	AA,X
+A0	EQU	DD-6
+B0	EQU	CC+EE
+C0	EQU	BB-EE
+.D0	EQU	CC-BB //Invalid Expression
+.E0	EQU	DD+BB //Invalid Expression
+F0	EQU	CC+100
+G0	EQU	DD-AA+BB-CC
+.H0	EQU	3*AA  //Invalid Expression
+	END
