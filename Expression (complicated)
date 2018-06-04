@@ -13,4 +13,5 @@ C0	EQU	BB-EE
 F0	EQU	CC+100
 G0	EQU	DD-AA+BB-CC
 .H0	EQU	3*AA  //Invalid Expression
+.I0	EQU	100-AA	 //Invalid Expression
 	END
