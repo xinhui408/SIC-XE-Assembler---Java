@@ -15,4 +15,8 @@ F0	EQU	CC+100
 G0	EQU	DD-AA+BB-CC
 .H0	EQU	3*AA  //Invalid Expression "A*R"
 .I0	EQU	100-AA	 //Invalid Expression "A-R"
+J0	EQU	(DD-AA)+(BB-CC)
+K0	EQU	3*4-6+CC
+L0	EQU	DD+(1+8/2)
+M0	EQU	1000*2/5/8
 	END
